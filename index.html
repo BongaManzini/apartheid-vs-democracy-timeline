@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apartheid vs Democracy Dual Timeline | South African Legal Informatics</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <style>
+    body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    .font-mono { font-family: 'JetBrains Mono', monospace; }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen selection:bg-indigo-500/20 selection:text-indigo-400">
+
+  <!-- Ambient background -->
+  <div class="fixed inset-0 pointer-events-none z-0">
+    <div class="absolute -top-32 left-1/3 w-96 h-96 bg-indigo-500/10 rounded-full blur-[140px]"></div>
+    <div class="absolute top-1/2 -right-40 w-96 h-96 bg-rose-500/10 rounded-full blur-[150px]"></div>
+    <div class="absolute -bottom-40 left-10 w-96 h-96 bg-emerald-500/10 rounded-full blur-[140px]"></div>
+  </div>
+
+  <div class="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 py-8">
+    <!-- Header -->
+    <header class="border-b border-slate-800 pb-6 mb-8 flex flex-col md:flex-row md:items-center justify-between gap-4">
+      <div>
+        <div class="flex items-center gap-2 mb-2">
+          <span class="px-2.5 py-1 rounded-full text-xs font-mono font-semibold bg-indigo-500/10 text-indigo-400 border border-indigo-500/30 flex items-center gap-1.5">
+            <span class="w-1.5 h-1.5 rounded-full bg-indigo-400 animate-pulse"></span>
+            Dual-Axis Historical Legal Comparison
+          </span>
+          <span class="text-xs font-mono text-slate-400 hidden sm:inline">SA Informatics Master Portfolio</span>
+        </div>
+        <h1 class="text-2xl sm:text-4xl font-extrabold tracking-tight text-white flex items-center gap-3">
+          <span>🇿🇦 Apartheid vs Democracy Dual Timeline</span>
+        </h1>
+        <p class="text-slate-400 text-sm sm:text-base mt-1 max-w-2xl font-light">
+          Dissecting the false equivalence that <em>"BEE is reverse apartheid."</em> An interactive dual-axis comparison illustrating how one system removed fundamental human rights via criminal sanctions, while the other balances statistical equity through non-penal economic incentives.
+        </p>
+      </div>
+
+      <div class="flex items-center gap-3">
+        <a href="https://github.com/BongaManzini/apartheid-vs-democracy-timeline" target="_blank" rel="noopener noreferrer" class="px-3 py-2 rounded-xl bg-slate-900 border border-slate-800 text-slate-300 hover:text-white hover:border-slate-700 text-xs font-mono flex items-center gap-2 transition-all">
+          <i data-lucide="github" class="w-4 h-4"></i>
+          <span>GitHub</span>
+        </a>
+        <a href="../" class="px-3 py-2 rounded-xl bg-indigo-500 hover:bg-indigo-400 text-slate-950 text-xs font-bold font-mono flex items-center gap-1.5 transition-all">
+          <i data-lucide="arrow-left" class="w-3.5 h-3.5"></i>
+          <span>Portfolio</span>
+        </a>
+      </div>
+    </header>
+
+    <!-- Side-by-Side System Principle Comparison -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
+      
+      <!-- Apartheid Pillar Card -->
+      <div class="bg-gradient-to-br from-rose-950/40 via-slate-900 to-slate-900 border border-rose-500/30 rounded-3xl p-6 sm:p-7 shadow-xl">
+        <div class="flex items-center justify-between mb-3">
+          <span class="px-2.5 py-0.5 rounded-full text-[10px] font-mono font-bold bg-rose-500/20 text-rose-400 border border-rose-500/30">
+            SYSTEM 1: APARTHEID (1948 – 1990)
+          </span>
+          <span class="text-xs font-mono text-rose-400 font-semibold">Restriction of Rights</span>
+        </div>
+        <h3 class="text-xl font-bold text-white mb-2">Institutionalized Subjugation</h3>
+        <p class="text-xs text-slate-300 font-light leading-relaxed mb-4">
+          Operated via <strong>criminal statutes, forced removals, pass arrests, and disenfranchisement</strong>. Prohibited the majority (85%) of South Africans from owning property, entering cities after dark, voting, or enrolling in technical professions.
+        </p>
+        <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/20 text-[11px] font-mono text-rose-300">
+          ⚖️ Mechanism: Penal code, imprisonment, banishment, physical violence.
+        </div>
+      </div>
+
+      <!-- Democracy Pillar Card -->
+      <div class="bg-gradient-to-br from-emerald-950/40 via-slate-900 to-slate-900 border border-emerald-500/30 rounded-3xl p-6 sm:p-7 shadow-xl">
+        <div class="flex items-center justify-between mb-3">
+          <span class="px-2.5 py-0.5 rounded-full text-[10px] font-mono font-bold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">
+            SYSTEM 2: CONSTITUTIONAL DEMOCRACY (1994 – 2026)
+          </span>
+          <span class="text-xs font-mono text-emerald-400 font-semibold">Inclusion & Redress</span>
+        </div>
+        <h3 class="text-xl font-bold text-white mb-2">Substantive Equality & Redress</h3>
+        <p class="text-xs text-slate-300 font-light leading-relaxed mb-4">
+          Operates via <strong>voluntary certification, procurement preferences, and tax incentives</strong> (Section 9(2) Equality Clause). No citizen is imprisoned or barred from commerce; private enterprises choose their transformation participation level.
+        </p>
+        <div class="p-3 bg-slate-950 rounded-xl border border-emerald-500/20 text-[11px] font-mono text-emerald-300">
+          ⚖️ Mechanism: Non-penal points scorecard, learnership tax credits, tenders.
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Domain Filter Switcher -->
+    <div class="flex flex-wrap items-center gap-2 mb-6">
+      <span class="text-xs font-mono text-slate-400 mr-2">Filter Comparative Domain:</span>
+      <button onclick="setDomain('ALL')" id="filter-all" class="px-3 py-1.5 rounded-xl text-xs font-mono font-bold bg-indigo-500 text-slate-950 transition-all">
+        All Domains
+      </button>
+      <button onclick="setDomain('LABOR')" id="filter-labor" class="px-3 py-1.5 rounded-xl text-xs font-mono font-medium bg-slate-800 text-slate-300 hover:text-white transition-all">
+        Employment & Labor
+      </button>
+      <button onclick="setDomain('LAND')" id="filter-land" class="px-3 py-1.5 rounded-xl text-xs font-mono font-medium bg-slate-800 text-slate-300 hover:text-white transition-all">
+        Land & Housing
+      </button>
+      <button onclick="setDomain('EDUCATION')" id="filter-education" class="px-3 py-1.5 rounded-xl text-xs font-mono font-medium bg-slate-800 text-slate-300 hover:text-white transition-all">
+        Education & Skills
+      </button>
+    </div>
+
+    <!-- Dual Timeline Streams Grid -->
+    <div id="timeline-container" class="space-y-6 mb-12">
+      <!-- Populated dynamically -->
+    </div>
+
+    <!-- Informatics Takeaway -->
+    <section class="bg-slate-900 border border-slate-800 rounded-3xl p-6 sm:p-8">
+      <div class="flex items-start gap-4">
+        <div class="w-12 h-12 rounded-2xl bg-indigo-500/10 text-indigo-400 flex items-center justify-center shrink-0">
+          <i data-lucide="compass" class="w-6 h-6"></i>
+        </div>
+        <div>
+          <h3 class="text-lg font-bold text-white mb-2">Informatics Synthesis: Why the Equivalence Fails</h3>
+          <p class="text-sm text-slate-300 font-light leading-relaxed">
+            Apartheid legislation was <em>exclusionary and prohibitive</em>—it decreed what individuals were forbidden from doing under pain of police custody based on immutable race classification. Democratic redress (BEE and Employment Equity) is <em>inclusionary and developmental</em>—it creates tax and tendering incentives for corporate entities to invest in education, apprenticeships, and localized supply chains. Equating developmental affirmative action with violent state disenfranchisement represents an untenable legal fallacy.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="mt-12 pt-6 border-t border-slate-800/80 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 font-mono gap-4">
+      <p>© Bonga Manzini • BSc Informatics (UNISA) • South African Socio-Economic Portfolio</p>
+      <div class="flex items-center gap-4">
+        <a href="https://github.com/BongaManzini/apartheid-vs-democracy-timeline" target="_blank" class="hover:text-indigo-400 transition-colors">GitHub Repository</a>
+        <span>•</span>
+        <a href="https://bongamanzini.github.io/portfolio/" target="_blank" class="hover:text-indigo-400 transition-colors">Portfolio</a>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    lucide.createIcons();
+
+    const COMPARISON_PAIRS = [
+      {
+        domain: 'LABOR',
+        domainLabel: 'Labor & Business',
+        apartheid: {
+          year: '1956',
+          act: 'Industrial Conciliation Act (Job Reservation)',
+          tag: '🔴 Criminal Job Prohibition',
+          desc: 'Reserved skilled artisanal, supervisory, and engineering occupations exclusively for white workers. Made it illegal for black South Africans to hold skilled artisan jobs.',
+          sanction: 'Criminal prosecution of employers; deportation to Bantustans.'
+        },
+        democracy: {
+          year: '1998',
+          act: 'Employment Equity Act (Act 55 of 1998)',
+          tag: '🟢 Remedial Representation Goals',
+          desc: 'Requires medium/large firms (>50 staff) to prepare affirmative action plans to diversify staff, explicitly prohibiting absolute barriers or quotas for any racial group.',
+          sanction: 'Civil compliance orders; non-penal fines.'
+        }
+      },
+      {
+        domain: 'LAND',
+        domainLabel: 'Land & Residential Ownership',
+        apartheid: {
+          year: '1950',
+          act: 'Group Areas Act (Act 41 of 1950)',
+          tag: '🔴 Forced Removals & Segregation',
+          desc: 'Forcibly dispossessed over 3.5 million citizens from urban hubs (Sophiatown, District Six) and segregated entire cities by race.',
+          sanction: 'Armed police eviction, bulldozer demolitions, imprisonment.'
+        },
+        democracy: {
+          year: '1994',
+          act: 'Restitution of Land Rights Act (Act 22 of 1994)',
+          tag: '🟢 Judicial Historical Restitution',
+          desc: 'Established Land Claims Court allowing families dispossessed under Apartheid to claim financial restitution or land transfer with market compensation to current titleholders.',
+          sanction: 'Equitable state payout adjudicated by High Court judges.'
+        }
+      },
+      {
+        domain: 'EDUCATION',
+        domainLabel: 'Education & Human Capital',
+        apartheid: {
+          year: '1953',
+          act: 'Bantu Education Act (Act 47 of 1953)',
+          tag: '🔴 Deliberate Deprivation of Curriculum',
+          desc: 'Removed mathematics and sciences from black schooling to ensure students were prepared only for manual labor. Funded black students at 1/10th the rate of white students.',
+          sanction: 'Illegal to teach unauthorized advanced curricula to black youth.'
+        },
+        democracy: {
+          year: '1998',
+          act: 'Skills Development Act (Act 97 of 1998) & NSFAS',
+          tag: '🟢 Universal Human Capital Grants',
+          desc: 'Levies a 1% corporate tax to fund SETA workplace learnerships and national bursaries (NSFAS) for working-class youth of all backgrounds.',
+          sanction: 'Tax rebates and accredited national qualification certificates.'
+        }
+      },
+      {
+        domain: 'LABOR',
+        domainLabel: 'Corporate Ownership & Capital',
+        apartheid: {
+          year: '1968',
+          act: 'Physical Planning Act (Act 88 of 1967)',
+          tag: '🔴 Ban on African Capital Accumulation',
+          desc: 'Prohibited black entrepreneurs from establishing retail businesses or corporations in metropolitan industrial zones.',
+          sanction: 'Confiscation of business assets and forced shop closures.'
+        },
+        democracy: {
+          year: '2003',
+          act: 'Broad-Based Black Economic Empowerment Act (Act 53 of 2003)',
+          tag: '🟢 Voluntary Procurement Incentives',
+          desc: 'Voluntary code awarding points for diverse ownership, training, and supplier sourcing. Private firms with 0% black ownership operate freely without legal restriction.',
+          sanction: 'Zero criminal sanction; tender scoring preference only.'
+        }
+      }
+    ];
+
+    let currentDomain = 'ALL';
+
+    function renderTimeline() {
+      const container = document.getElementById('timeline-container');
+      const filtered = currentDomain === 'ALL'
+        ? COMPARISON_PAIRS
+        : COMPARISON_PAIRS.filter(p => p.domain === currentDomain);
+
+      container.innerHTML = filtered.map(pair => `
+        <div class="bg-slate-900/60 border border-slate-800 rounded-3xl p-6 transition-all">
+          <div class="flex items-center gap-2 mb-4">
+            <span class="px-2.5 py-0.5 rounded-full text-[10px] font-mono bg-indigo-500/10 text-indigo-400 border border-indigo-500/30 font-semibold">
+              ${pair.domainLabel}
+            </span>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+            <!-- Left: Apartheid Law -->
+            <div class="p-4 rounded-2xl bg-rose-950/20 border border-rose-500/30 flex flex-col justify-between">
+              <div>
+                <div class="flex items-center justify-between mb-2">
+                  <span class="text-xs font-mono font-bold text-rose-400">${pair.apartheid.tag}</span>
+                  <span class="text-xs font-mono text-slate-400">${pair.apartheid.year}</span>
+                </div>
+                <h4 class="text-base font-bold text-white mb-2">${pair.apartheid.act}</h4>
+                <p class="text-xs text-slate-300 font-light leading-relaxed mb-3">${pair.apartheid.desc}</p>
+              </div>
+              <div class="p-2.5 rounded-xl bg-slate-950/80 border border-rose-500/20 text-[10px] font-mono text-rose-300">
+                <strong>Enforcement:</strong> ${pair.apartheid.sanction}
+              </div>
+            </div>
+
+            <!-- Right: Democracy Law -->
+            <div class="p-4 rounded-2xl bg-emerald-950/20 border border-emerald-500/30 flex flex-col justify-between">
+              <div>
+                <div class="flex items-center justify-between mb-2">
+                  <span class="text-xs font-mono font-bold text-emerald-400">${pair.democracy.tag}</span>
+                  <span class="text-xs font-mono text-slate-400">${pair.democracy.year}</span>
+                </div>
+                <h4 class="text-base font-bold text-white mb-2">${pair.democracy.act}</h4>
+                <p class="text-xs text-slate-300 font-light leading-relaxed mb-3">${pair.democracy.desc}</p>
+              </div>
+              <div class="p-2.5 rounded-xl bg-slate-950/80 border border-emerald-500/20 text-[10px] font-mono text-emerald-300">
+                <strong>Enforcement:</strong> ${pair.democracy.sanction}
+              </div>
+            </div>
+          </div>
+        </div>
+      `).join('');
+
+      lucide.createIcons();
+    }
+
+    function setDomain(dom) {
+      currentDomain = dom;
+
+      ['all', 'labor', 'land', 'education'].forEach(d => {
+        const btn = document.getElementById(`filter-${d}`);
+        if (d.toUpperCase() === dom) {
+          btn.className = 'px-3 py-1.5 rounded-xl text-xs font-mono font-bold bg-indigo-500 text-slate-950 transition-all';
+        } else {
+          btn.className = 'px-3 py-1.5 rounded-xl text-xs font-mono font-medium bg-slate-800 text-slate-300 hover:text-white transition-all';
+        }
+      });
+
+      renderTimeline();
+    }
+
+    window.addEventListener('DOMContentLoaded', () => {
+      renderTimeline();
+    });
+  </script>
+</body>
+</html>
