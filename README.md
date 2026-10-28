@@ -1,12 +1,12 @@
-# ⏳ Apartheid vs Democracy: Comparative Legal Timeline
+# Apartheid vs Democracy: Comparative Legal Timeline
 ### A Side-by-Side Interactive Timeline Comparing Apartheid Bans with Modern Constitutional Rights
 
-> **Live Timeline**: [https://bongamanzini.github.io/apartheid-vs-democracy-timeline/](https://bongamanzini.github.io/apartheid-vs-democracy-timeline/)  
+> **Live Timeline**: [https://bongamanzini.github.io/apartheid-vs-democracy-timeline/](https://bongamanzini.github.io/apartheid-vs-democracy-timeline/) 
 > **Built by**: Bonga Manzini (BSc Informatics student at UNISA)
 
 ---
 
-## 🔬 About This Project
+## About This Project
 
 In heated political arguments online, people sometimes claim that modern policies like BEE or employment equity are 'just apartheid in reverse'.
 
@@ -55,14 +55,14 @@ This tool puts both eras side by side so anyone can see the historical and legal
 
 ---
 
-## 🛠️ Tech Stack
+## ️ Tech Stack
 - **HTML5 & Vanilla JavaScript**
 - **Tailwind CSS**
 - **Dual-Axis Timeline Slider**
 
 ---
 
-## 🤝 Contributing & Pull Requests
+## Contributing & Pull Requests
 
 Have an idea to improve the timeline or add more historical photos?
 1. Fork this repository
